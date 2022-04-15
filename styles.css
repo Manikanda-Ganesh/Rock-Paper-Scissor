@@ -1,0 +1,120 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 1, 26);
+}
+header {
+    background: white;
+    padding: 20px;
+}
+header  h1 {
+    color: rgb(5,0,31);
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.score-board {
+    margin: 10px auto;
+    border: 3px solid white;
+    text-align:center;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    padding: 15px 15px;
+    position: relative;
+}
+
+.badge {
+    background: red;
+    font-size: 14px;
+    padding: 2px 18px;
+}
+
+#user-label {
+    position: absolute;
+    top: 25px;
+    left: -20px;
+
+}
+
+
+#computer-label {
+    position: absolute;
+    top: 25px;
+    right: -20px;
+}
+
+
+.result {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 19px;
+}
+
+.choices {
+    text-align: center;
+    margin: 4px, 0;
+}
+.choice {
+    border: 3px solid white;
+    margin: 15px;
+    padding: 7px;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(249, 249, 252);
+    
+}
+
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding: 15px;
+    font-family:sans-serif;
+    font-weight: bolder;
+}
+
+.green-glow {
+    border: 8px solid #4dcc7d;
+    box-shadow: 10 10 10px #31b43a;
+}
+.red-glow {
+    border: 8px solid #fc121b;
+    box-shadow: 0 0 10px #e41313;
+}
+.grey-glow {
+    border: 8px solid #464647;
+    box-shadow: 0 0 10px #80868a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
